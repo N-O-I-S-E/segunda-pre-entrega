@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardItem{
+    border: 1px solid red;
+    height: 480px;
+    width: 300px;
+    padding: 6px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:end ;
+}
+
+.cardItem .cardImg {
+    border: 1px solid gray;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cardItem .cardImg img{
+width: 100%;
+}
+.cardDescription .title{
+    font-size: 21px;
+    margin: 6px 0;
+}
+.cardDescription{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    height: 35%;
+}
+.cardDescription .description{
+    display: none;
+}
+.cardDescription .cant{
+    color: black;
+    font-size:13px ;
+}
+.cardDescription .precio{
+    color: #b22222;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.buttons{
+    border: 1px solid black;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.buttons #detalles{
+    height: 80%;
+    width: 70%;
+    border-radius: 50px;
+    background-color: #b22222;
+    color: white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: none;
+    font-size: 20px;
+}
+.buttons #detalles:hover{
+    background-color: #6b2222;
+}
